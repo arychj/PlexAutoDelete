@@ -1,0 +1,18 @@
+<config>
+	<settings>
+		<debug>True</debug>
+		<directories>
+			<trash><![CDATA[/tmp/PlexTrash]]></trash>
+		</directories>
+	</settings>
+	<server>
+		<host>127.0.0.1</host>
+		<port>32400</port>
+	</server>
+	<libraries>
+		<library section="1">
+			<show action="trash"><![CDATA[TV Show Name to Trash]]></show>
+			<show action="delete"><![CDATA[TV Show Name to Delete]]></show>
+		</library>
+	</libraries>
+</config>
